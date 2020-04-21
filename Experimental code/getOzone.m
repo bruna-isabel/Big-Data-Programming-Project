@@ -59,7 +59,7 @@ for i = 1:length(models)
     ozoneValuesUK = [ozoneValuesUK, avOzoneUK];
    
 end
-ozoneValues = [ozoneValuesPor; ozoneValuesUK]
+ozoneValues = [ozoneValuesPor; ozoneValuesUK];
 fprintf("%i ", ozoneValuesPor);
 fprintf("\n")
 fprintf("%i ", ozoneValuesUK);
